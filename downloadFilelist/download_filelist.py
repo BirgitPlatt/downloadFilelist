@@ -28,6 +28,10 @@ options:
   -e --encoding <encoding>    encoding of filename, if not specified
                                   "preferred encoding" is used instead
   -h --help
+
+returncodes: 
+  -1: failure
+   other: number of failed lines
 """
 
 DATETIME_MASK_FOR_PRINT = "%Y-%m-%d %H:%M:%S"

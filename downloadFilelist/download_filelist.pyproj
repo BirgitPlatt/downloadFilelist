@@ -14,7 +14,7 @@
     <Name>download_filelist</Name>
     <RootNamespace>downloadFilelist</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>"D:\Users\Birgit\Documents\sample\urls.txt" -e utf-8 -o "D:\Users\Birgit\Documents\sample\pics"</CommandLineArguments>
+    <CommandLineArguments>".\input_samples\url_list_utf8.txt" -e utf-8 </CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
@@ -28,6 +28,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="download_filelist.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input_samples\url_list.txt" />
+    <Content Include="input_samples\url_list_utf8.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="input_samples\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
