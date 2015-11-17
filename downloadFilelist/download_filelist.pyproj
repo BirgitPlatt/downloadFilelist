@@ -32,6 +32,7 @@
   <ItemGroup>
     <Content Include="input_samples\url_list.txt" />
     <Content Include="input_samples\url_list_utf8.txt" />
+    <Content Include="output\dummy.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="input_samples\" />
