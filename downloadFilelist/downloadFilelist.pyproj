@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>05f5e963-8c25-4f3c-9661-7fd9ebb205e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>downloadFilelist.py</StartupFile>
+    <StartupFile>download_filelist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,8 +13,9 @@
     <Name>downloadFilelist</Name>
     <RootNamespace>downloadFilelist</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>"D:\\Users\\Birgit\\Documents\\sample\\picListutf8.txt" -e utf-8</CommandLineArguments>
+    <CommandLineArguments>"D:\Users\Birgit\Documents\sample\urls.txt" -e utf-8 -o "D:\Users\Birgit\Documents\sample\pics"</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,7 +26,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="downloadFilelist.py" />
+    <Compile Include="download_filelist.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
