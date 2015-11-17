@@ -64,6 +64,8 @@ def download_url_filelist(filelist, out=None, encoding=None):
     error_count = 0
 
     if (out is not None):
+        # existance check requires absolute path
+        out = os.path.abspath(out)
         # if out is not valid wget.download will not work correctly
         if(not os.path.exists(out)):
             print("FAILED: out directory '{0:s}' doesn't exist".format(out))
@@ -140,7 +142,7 @@ def download_url_filelist(filelist, out=None, encoding=None):
 if __name__ == "__main__":
 
     try:
-        # return usage text if less then arguments or help is explicitly
+        # return usage text if less then 2 arguments or help is explicitly
         # requested:
         if len(sys.argv) < 2 or "-h" in sys.argv or "--help" in sys.argv:
             sys.exit(usage)

@@ -14,7 +14,7 @@
     <Name>download_filelist</Name>
     <RootNamespace>downloadFilelist</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>".\input_samples\url_list_utf8.txt" -e utf-8 </CommandLineArguments>
+    <CommandLineArguments>.\input_samples\url_list_utf8.txt -e utf-8 -o .\output\</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
@@ -35,6 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="input_samples\" />
+    <Folder Include="output\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
