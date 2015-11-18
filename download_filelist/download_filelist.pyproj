@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>05f5e963-8c25-4f3c-9661-7fd9ebb205e0</ProjectGuid>
+    <ProjectGuid>{470b3ded-c551-400d-a35d-83fc175739bd}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
     <StartupFile>download_filelist.py</StartupFile>
