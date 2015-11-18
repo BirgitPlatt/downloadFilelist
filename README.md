@@ -3,7 +3,7 @@
 Small python project for a script that takes a plaintext file as an argument and 
 downloads all images, storing them on the local hard disk. The file has one URL per line.
 
-Project folder downloadFilelist contains the script download_filelist.py. 
+Project folder download_filelist contains the script download_filelist.py. 
 Folder input_sample contains example filelists using different encodings
 
 This python project was developed using Visual Studio 2015 and python 3.5.0 
